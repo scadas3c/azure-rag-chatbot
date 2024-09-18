@@ -18,7 +18,7 @@ body {
 }
 
 .header {
-    background-color: #f2f2f2;
+    background-color: #FFFFFF;
 }
 
 .headerContainer {
@@ -42,7 +42,7 @@ body {
     line-height: 28px;
     display: flex;
     align-items: flex-end;
-    color: #242424;
+    color: #FF0000;
 }
 
 .headerIcon {
@@ -60,7 +60,7 @@ body {
     gap: 4px;
     width: 86px;
     height: 32px;
-    background: radial-gradient(109.81% 107.82% at 100.1% 90.19%, #0F6CBD 33.63%, #2D87C3 70.31%, #8DDDD8 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    background: radial-gradient(109.81% 107.82% at 100.1% 90.19%, #FF0000 33.63%, #FF4D4D 70.31%, #FF9999 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
     border-radius: 4px;
     flex: none;
     order: 1;
@@ -91,8 +91,8 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-    color: #707070;
-    border: 1px solid #D1D1D1;
+    color: #FF0000;
+    border: 1px solid #FF0000;
     border-radius: 4px;
 }
 
@@ -105,17 +105,17 @@ body {
     padding: 5px 12px;
     gap: 4px;
     background: #FFFFFF;
-    border: 1px solid #D1D1D1;
+    border: 1px solid #FF0000;
     border-radius: 4px;
 }
 
 .copyButtonContainer:hover {
     cursor: pointer;
-    background: #D1D1D1;
+    background: #FF0000;
 }
 
 .copyButton {
-    color: #424242;
+    color: #FF0000;
 }
 
 .copyButtonText {
@@ -126,7 +126,7 @@ body {
     line-height: 20px;
     display: flex;
     align-items: center;
-    color: #242424;
+    color: #FF0000;
 }
 
 @media screen and (-ms-high-contrast: active), (forced-colors: active) {
